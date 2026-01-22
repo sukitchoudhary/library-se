@@ -13,7 +13,6 @@ class TestLibrarySprint1(unittest.TestCase):
         lib.add_book("B1", "Python", "Guido")
         with self.assertRaises(ValueError):
             lib.add_book("B1", "Java", "James")
-
 if __name__ == "__main__":
     unittest.main()
 
